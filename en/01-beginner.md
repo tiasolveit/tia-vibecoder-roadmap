@@ -10,7 +10,7 @@ that is usually a sign you skipped a step.
 
 ---
 
-## 1. 🧠 الفكرة
+## 1. 🧠 The Idea
 
 Write down one problem you understand better than anyone else, and who has it.
 
@@ -20,7 +20,7 @@ are the client."
 
 ---
 
-## 2. 🤖 اقتراحات AI
+## 2. 🤖 AI Suggestions
 
 Turn your problem into ten possible products, then pick the one you would
 actually use.
@@ -32,7 +32,7 @@ context about you and your constraints, not just the idea.
 
 ---
 
-## 3. 💡 المزيد من الأفكار
+## 3. 💡 More Ideas
 
 Expand the idea. Find adjacent problems, edge cases, and the boring features
 people forget until it is too late.
@@ -42,7 +42,7 @@ must-have and nice-to-have.
 
 ---
 
-## 4. 📂 التنظيم
+## 4. 📂 Organization
 
 Set up the repo, a notes file, and a task list. Decide where you will keep
 prompts and decisions.
@@ -55,7 +55,7 @@ will actually look at again.
 
 ---
 
-## 5. 📣 التحقق من السوق
+## 5. 📣 Market Validation
 
 Before you write code, check that anyone wants this. Talk to five people who
 have the problem. Ask what they do today, not whether they like your idea.
@@ -68,7 +68,7 @@ someone asking when it will be ready.
 
 ---
 
-## 6. ⚙️ اختيار التقنيات
+## 6. ⚙️ Tech Stack
 
 Pick the boring stack you already know. Do not learn three new frameworks to
 build one small product.
@@ -80,7 +80,7 @@ monthly cost before you deploy.
 
 ---
 
-## 7. 🎯 تحديد MVP
+## 7. 🎯 MVP Definition
 
 Cut the feature list down until it is embarrassing. The MVP is the smallest
 thing that delivers the value from step 1.
@@ -93,7 +93,7 @@ every point is required for the product to work.
 
 ---
 
-## 8. 🧩 خطة البناء
+## 8. 🧩 Build Plan
 
 Break the MVP into tasks of a few hours each. Put them in order. Put the
 riskiest assumption first, because if it fails you want to know in day two.
@@ -103,7 +103,7 @@ of days.
 
 ---
 
-## 9. ✅ المراجعة
+## 9. ✅ Review
 
 Read the plan once more with fresh eyes. Cut anything that does not serve the
 MVP. Write prompts for the first three tasks while you are still here, because
@@ -114,7 +114,7 @@ written.
 
 ---
 
-## 10. 🚀 البناء
+## 10. 🚀 Build
 
 Build. One task at a time. Do not rewrite working code to look nicer. Do not
 add a feature that was not on the list.
@@ -126,7 +126,7 @@ description of the problem.
 
 ---
 
-## 11. 🌐 الإطلاق والاختبار
+## 11. 🌐 Launch & Test
 
 Deploy it, get a public URL, and hand it to five real people. Watch them use
 it without explaining anything.
@@ -143,3 +143,4 @@ confused them.
 You have a live product and real feedback. Move to the growth track.
 
 - [🟡 Track 2: Vibecoder Builder](02-builder.md)
+- [Back to README](../README.md)

@@ -110,3 +110,5 @@ to rewrite. With it, you get something you can paste into your notes.
 You are ready for track 1.
 
 - [🟢 Track 1: Vibecoder Beginner](01-beginner.md)
+- [النسخة العربية](../ar/00-prompt-basics.md)
+- [Back to README](../README.md)

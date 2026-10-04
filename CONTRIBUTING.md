@@ -26,31 +26,79 @@ ask. That is faster than writing something that does not fit.
 - A step that confused you.
 - A broken or outdated link.
 - A missing sample prompt for a step.
-- A translation, or a better Arabic title.
+- A translation, or a better Arabic phrasing.
 - A real number from your own product, with context.
+
+## Translations
+
+The English and Arabic versions hold the same content and must stay in sync.
+
+- `en/` and `ar/` have matching filenames. Keep it that way.
+- When you change a step in one language, change it in the other in the same
+  pull request.
+- Same number of steps, same order, same emojis, same "Done when" condition.
+- Translate meaning, not word order. An awkward literal translation is worse
+  than a short rewrite.
+- Keep technical terms that developers actually search for in English: MVP,
+  API, webhook, A/B test, JSON.
+- Keep code blocks, filenames, and commands identical to the English file.
+- Transliteration is fine when there is no good Arabic term, for example
+  Supabase or Discord.
 
 ## Style guide
 
-- **Markdown only.** No HTML unless there is no other way.
+- **Markdown only.** The one exception is the `<div dir="rtl">` wrapper at the
+  top and bottom of every file in `ar/`.
 - **No em dashes.** Use a comma, a colon, or two sentences. This applies to
   every file, including this one.
 - **One emoji per step title.** Keep it in the same position every time.
-- **Arabic title, English body.** Step titles are short and in Arabic. The
-  explanation under each title is one line, in English.
+- **Each file is single language.** English files are fully English, Arabic
+  files are fully Arabic. No mixed paragraphs.
 - **Short lines.** Aim under 80 characters so diffs stay readable.
 - **Professional tone.** Plain and direct. No hype, no filler.
 - **Spellcheck your work** before you open the pull request.
+
+### Arabic files and RTL
+
+GitHub renders Markdown left to right by default, so Arabic files need one
+wrapper to flip the layout:
+
+```markdown
+<div dir="rtl">
+
+# عنوان الملف
+
+المحتوى هنا.
+
+</div>
+```
+
+Keep blank lines after the opening tag and before the closing tag, otherwise
+Markdown tables and lists stop rendering. Never indent the content inside the
+div, four spaces turns it into a code block.
 
 ## Step format
 
 Every track step follows the same shape. Keep it consistent.
 
-```markdown
-## 1. 🧠 Title in Arabic
+English:
 
-One line in English explaining what this step is and why it comes now.
+```markdown
+## 1. 🧠 The Idea
+
+One line explaining what this step is and why it comes now.
 
 **Done when:** a short, testable condition.
+```
+
+Arabic:
+
+```markdown
+## 1. 🧠 الفكرة
+
+سطر واحد يشرح ما هو هذا الخطوة ولماذا تأتي الآن.
+
+**ينتهي عندما:** شرط قصير وقابل للاختبار.
 ```
 
 ## Commit messages
@@ -70,6 +118,7 @@ Types:
 | `add` | New steps, new files |
 | `remove` | Deleting content |
 | `refactor` | Restructuring without changing meaning |
+| `translate` | Arabic translations and RTL fixes |
 
 Examples:
 
@@ -77,6 +126,7 @@ Examples:
 docs: clarify A/B testing step in builder track
 fix: broken link to prompt basics in README
 add: sample prompts for beginner track
+translate: rework track 1 Arabic wording
 ```
 
 Keep the subject line under 72 characters. Use the imperative mood.

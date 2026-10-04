@@ -9,7 +9,7 @@ Same rule as track 1: use real data, not your assumptions.
 
 ---
 
-## 1. 🎨 تحسين الواجهة
+## 1. 🎨 UI/UX Polish
 
 Fix what confused people in your launch test. Clear copy, obvious buttons,
 useful empty states, fewer options on screen.
@@ -18,7 +18,7 @@ useful empty states, fewer options on screen.
 
 ---
 
-## 2. 📊 التحليلات والمقاييس
+## 2. 📊 Analytics & KPIs
 
 Add analytics. You need to know where users come from, what they do first, and
 where they drop off.
@@ -31,7 +31,7 @@ guessing.
 
 ---
 
-## 3. 🧪 اختبار A/B
+## 3. 🧪 A/B Testing
 
 Change one thing and measure. Two versions of a page, split traffic, compare
 the number that matters.
@@ -44,7 +44,7 @@ the result, not on your preference.
 
 ---
 
-## 4. 🔄 حلقة الملاحظات
+## 4. 🔄 Feedback Loop
 
 Set up one channel where users can talk to you. A form, a Discord, an email, a
 button in the app. One is enough.
@@ -57,7 +57,7 @@ least ten users personally.
 
 ---
 
-## 5. 💵 التحقق من التسعير
+## 5. 💵 Pricing Validation
 
 Put a price on it. Free trials, free tiers, all of it hides the only answer
 that matters: will someone pay?
@@ -70,7 +70,7 @@ person.
 
 ---
 
-## 6. 📧 الإشعارات
+## 6. 📧 Notifications
 
 Own your contact with users. An email list beats a platform audience you do not
 control.
@@ -82,7 +82,7 @@ at this stage.
 
 ---
 
-## 7. 💬 دعم العملاء
+## 7. 💬 Customer Support
 
 Write down every question you get asked twice. Turn each one into a clear answer
 inside the product.
@@ -95,7 +95,7 @@ product, not in your inbox.
 
 ---
 
-## 8. 🚀 التسويق والإطلاق
+## 8. 🚀 Marketing & Launch
 
 Launch in public. Show the before and after, the numbers, the failures. People
 respond to honest work in progress more than to launch announcements.
@@ -107,7 +107,7 @@ day.
 
 ---
 
-## 9. 🗺️ خارطة الطريق
+## 9. 🗺️ Roadmap
 
 Now you know what to build next, because users told you. Write the next three
 months of work and share it publicly.
@@ -124,3 +124,4 @@ in progress.
 Growth without stability is a liability. Move to the hardening track.
 
 - [🔴 Track 3: Vibecoder Pro](03-pro.md)
+- [Back to README](../README.md)
